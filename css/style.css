@@ -5,3 +5,6 @@ nav a:hover { background: var(--ink); color: var(--paper); }
 
 /* Heartbeat 2026-10-30 step 3 */
 nav a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+
+/* Heartbeat 2026-10-30 step 4 */
+@media (max-width: 700px) { nav { flex-wrap: wrap; gap: 10px; width: 100%; } nav a { flex: 1 1 auto; justify-content: center; text-align: center; } }
