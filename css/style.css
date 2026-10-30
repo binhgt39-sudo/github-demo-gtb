@@ -2,3 +2,6 @@
 
 /* Heartbeat 2026-10-30 step 2 */
 nav a:hover { background: var(--ink); color: var(--paper); }
+
+/* Heartbeat 2026-10-30 step 3 */
+nav a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
